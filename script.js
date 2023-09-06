@@ -21,14 +21,16 @@ con.addEventListener("dblclick", function () {
 
 heart.addEventListener("click", function () {
     if (check == 0) {
-        
+
         heart.classList.remove("ri-heart-3-line");
         heart.classList.add("ri-heart-3-fill");
+        heart.style.color = "#e81224";
         check = 1;
     } else {
-        
+
         heart.classList.add("ri-heart-3-line");
         heart.classList.remove("ri-heart-3-fill");
+        heart.style.color = "black";
         check = 0;
     }
 });
@@ -36,14 +38,16 @@ heart.addEventListener("click", function () {
 
 thumb.addEventListener("click", function () {
     if (check == 0) {
-        
+
         thumb.classList.remove("ri-thumb-up-line");
         thumb.classList.add("ri-thumb-up-fill");
+        thumb.style.color = "#548cfb";
         check = 1;
     } else {
-        
+
         thumb.classList.add("ri-thumb-up-line");
         thumb.classList.remove("ri-thumb-up-fill");
+        thumb.style.color = "black";
         check = 0;
     }
 });
@@ -51,14 +55,16 @@ thumb.addEventListener("click", function () {
 
 share.addEventListener("click", function () {
     if (check == 0) {
-        
+
         share.classList.remove("ri-share-forward-line");
         share.classList.add("ri-share-forward-fill");
+        share.style.color="#548cfb";
         check = 1;
     } else {
-        
+
         share.classList.add("ri-share-forward-line");
         share.classList.remove("ri-share-forward-fill");
+        share.style.color="black";
         check = 0;
     }
 });
